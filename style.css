@@ -335,10 +335,11 @@ flex-direction: column;
 .category-card span{
     margin-top: 16px;
 }
-#camera{
-    background-color: #DB4444;
-    color: white;
-    border: #DB4444;
+.category-card:hover{
+    background-color: #ff4d4f;
+        /* Красный цвет */
+        border-color: #ff4d4f;
+        color: white;
 }
 .fourth{
     margin-top: 70px;
@@ -564,4 +565,26 @@ footer span{
 }
 footer input{
     background-color: #000  ;
+        background: url('./img/icon-send.png') no-repeat right 10px center;
+            background-size: 20px;
+    width: 217px;
+    height: 48px;
+    gap: 32px;
+    border-radius: 4px;
+    border-width: 1.5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+}
+.up{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    margin-top: 62px;
+    margin-left: 1170px;
+    border: none;
+}
+.up:hover {
+    background-color: #e33b3d;
 }
