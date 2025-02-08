@@ -562,3 +562,6 @@ footer span{
     line-height: 24px;
     letter-spacing: 0%;
 }
+footer input{
+    background-color: #000  ;
+}
